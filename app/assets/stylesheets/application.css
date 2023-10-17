@@ -17,23 +17,62 @@
 
 
 .baseline {
-    width:20%;
-    height:200%;
     font-size:150%;
-    text-align:center;
-    background-color:blue;
+    width :10%;
     float:left;
+    font-weight: normal;
+   
+}
+
+.baseline {
+    padding: 0.5em 1em;
+    color: #474747;
+    border-right: double 7px #4ec4d3;
+    margin-right: 50px;
 }
 
 .content {
-    width: 60%;
-    height:100px;
-    font-size:200%;
-    text-align:center;
-    background-color:red;
+    line-height: 5;
+}
+
+.content a {
+    font-size:150%;
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #dcdcdc; 
+    border-bottom: solid 2px #1e90ff
+}
+
+.content d a:hover{
+    opacity:0.7;
+    color:blue;
 }
 
 .p {
-    width:60%;
+   
     margin-left:10px;
 }
+
+body {
+    background-color: #dcdcdc;
+}
+
+.b p{
+     margin: 0; 
+    padding: 0;
+}
+
+.baseline b p:hover {
+    opacity: 0.7;
+    color: blue;
+}
+
+.baseline c{
+   color:blue;
+}
+
+.baseline c :hover{
+    opacity: 0.7;
+    color: #ff00ff;
+}
+
